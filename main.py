@@ -167,7 +167,7 @@ async def finish(update, context):
 
 
 def main() -> None:
-    application = Application.builder().token('8015566324:AAFbFYAEZX5aiFi_MIDZ9eG-gsntmWhOezg').build()
+    application = Application.builder().token('token').build()
 
     # Обработчики команд и кнопок
     application.add_handler(CommandHandler('start', start))
