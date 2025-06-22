@@ -52,14 +52,6 @@ pip install -r requirements.txt
 
 ### Шаг 4: Запусти бота
 
-Создай файл `.env` и вставь свой токен:
-
-```env
-TOKEN=твой-токен-здесь
-```
-
-Запусти бота:
-
 ```bash
 python bot.py
 ```
